@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import Navigation from "./components/navigation";
 import Account from "./components/Account";
 
+import Aside from "./components/Aside";
 import Tweet from "./components/Tweet";
 import Create from "./components/Create";
 
@@ -31,7 +32,9 @@ function App() {
           <Tweet />
           <Tweet />
         </Col>
-        <Col></Col>
+        <Col>
+          <Aside />
+        </Col>
       </Row>
     </Container>
   );
